@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+//home
+.main-image{
+  background-image: asset-url('katmuedas.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+
+.sub-image{
+  background-image: asset-url('flowerkat.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0;
+  text-align:center;
+}
+
+.camel-bg{
+  // background: #f2ede7;
+  // background: #fcf9f8;
+  background: #e6c4b4;
+}
+
+.message{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.about-section{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}

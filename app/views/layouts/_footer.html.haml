@@ -1,0 +1,18 @@
+%footer.page-footer.font-small.mdb-color.pt-4
+  .container.text-center.text-md-left
+    .row.d-flex.align-items-center
+      .col-md-7.col-lg-8
+        %p.text-center.text-md-left
+          &copy; #{Time.current.year}
+          = link_to "Katherine Muedas", root_url, class:""
+      .col-md-5.col-lg-4.ml-lg-0
+        / Social buttons
+        .text-center.text-md-right
+          %ul.list-unstyled.list-inline
+            %li.list-inline-item
+              =link_to "https://www.instagram.com/katmuedas", 'aria-label' => 'Instagram', target: '_blank', rel: "noopener" do
+                %i.fa.fa-instagram.fa-2x
+            %li.list-inline-item
+              =link_to "https://github.com/KatherineMuedas", 'aria-label' => 'Instagram', target: '_blank', rel: "noopener" do
+                %i.fa.fa-github.fa-2x
+

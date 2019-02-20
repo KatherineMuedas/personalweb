@@ -1,0 +1,14 @@
+!!!
+%html
+  %head
+    %title Personalweb
+    = csrf_meta_tags
+    = csp_meta_tag
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+  %body
+    .main-content{style:"min-height: 100vh;"}
+      = render 'layouts/navbar'
+      = yield
+    = render 'layouts/footer'
+
