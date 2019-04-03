@@ -2,21 +2,47 @@
 .camel-bg.message
   %p.text-uppercase.mb-0 Listen to your feelings. Listen to your Higher Thoughts. Listen to your experiences.
 
-.about-section.container
+.section.container
   .row
     .col-12.col-lg-8.offset-lg-2
-      %h2.text-center.font-weight-light.mb-4.text-primary Hi, I'm Kat
+      %h3.text-center.font-weight-light.mb-4.text-primary HI, I'M KAT
       %p.font-weight-light
         %strong Welcome to my site!
-        I am a passionate explorer, world-traveler, software developer and wellness advocate.  Originally from Peru, I moved to the USA in 2015 but I've been working remotely and traveling around the world since 2017.
-        git push -u origin master
+        I am a passionate explorer, world-traveler, software developer and wellness advocate.  I am originally from #{link_to 'Peru', 'https://www.peru.travel/about-peru.aspx', target: '_blank' }. I moved to The USA in 2015 but I've been working remotely and traveling around the world since 2017.
+
       %p.font-weight-light I am inspired to contribute and build great things that make people happier and the world more awesome.
 
       %p.font-weight-light I am inspired by people that want to make a positive impact and are always positive despite the circumstances.
 
-      %p.font-weight-light I love reading books about personal growth.
+      %p.font-weight-light I love biking, practicing yoga and meditation, and reading books about personal growth.
 
-      %p.font-weight-light I am currently learning Vue.js and Belly Dance.
+      %p.font-weight-light I am currently learning Vue.js and belly dance.
+
+.project.section
+  .container
+    .row
+      .col-12.col-lg-8.offset-lg-2
+        %h3.text-center.font-weight-light.mb-4.text-white SOME OF MY PROJECTS
+        .card
+          .card-body
+            %h5.card-title PacaOm
+            %p.card-text PacaOm is a space for learning different ways to increase wellbeing, cultivate mindfulness, and live consciously.
+            =link_to 'https://www.pacaom.com', target: '_blank', class: "card-link" do
+              %i.fa.fa-external-link.fa-2x
+
+        .card.mt-3
+          .card-body
+            %h5.card-title The Flower Alley
+            %p.card-text Online florist shop and store management.
+            =link_to 'https://www.thefloweralley.com', target: '_blank', class: "card-link" do
+              %i.fa.fa-external-link.fa-2x
+
+        .card.mt-3
+          .card-body
+            %h5.card-title WeFundThem
+            %p.card-text Fundraising platform for youth sports teams.
+            =link_to 'https://wefundthem.com', target: '_blank', class: "card-link" do
+              %i.fa.fa-external-link.fa-2x
 
 .jumbotron.jumbotron-fluid.sub-image.mb-0
   .container
