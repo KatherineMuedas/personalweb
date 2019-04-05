@@ -55,6 +55,7 @@ group :development do
   gem 'xray-rails'
   gem 'better_errors'
   gem 'html2haml'
+  gem 'rails_real_favicon'
 end
 
 group :test do
