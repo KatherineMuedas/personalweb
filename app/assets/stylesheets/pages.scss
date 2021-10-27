@@ -5,11 +5,12 @@
 
 //home
 .main-image{
-  background-image: asset-url('katmuedas.jpg');
-  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
-  height: 650px;
-  opacity: 0.6;
+  background-image: asset-url('KatMuedas.jpeg');
+  background-color: #8aa0a3 !important;
+  height: 450px;
+  border-radius: 50%;
   margin-bottom: 0;
 }
 
